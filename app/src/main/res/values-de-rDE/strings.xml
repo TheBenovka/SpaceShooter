@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpaceShooter</string>
+    <string name="button_startgame">Spiel Starten</string>
+    <string name="button_spielerVerwaltung">Spieler\nVerwaltung</string>
+    <string name="button_highscore">Highscore</string>
+    <string name="button_statistiken">Statistiken</string>
+    <string name="button_einstellungen">Einstellungen</string>
+    <string name="einstellungen_ueberschrift">Einstellungen</string>
+    <string name="einstellungen_musik">Musik</string>
+    <string name="einstellungen_Soundeffekte">Soundeffekte</string>
+    <string name="s_verwaltung_ueberschrift">Spieler</string>
+    <string name="s_verwaltung_spielername">Spieler\nName:</string>
+    <string name="s_verwaltung_button_löschen">Account\nlöschen</string>
+    <string name="s_verwaltung_button_bestaetigen">bestätigen</string>
+    <string name="highscore_ueberschrift">Höchster\nPunktestand</string>
+    <string name="s_verwaltung_edittext_platzhaltername">*Name eingeben*</string>
+    <string name="game_over">SPIEL ENDE</string>
+    <string name="your_score">DEINE PUNKTZAHL:</string>
+    <string name="highscore">HÖCHSTPUNKTZAHL:</string>
+    <string name="default_score">100</string>
+    <string name="default_highscore">100000</string>
+    <string name="share_text">Hey sieh dir meine neuen Score bei Spaceshooter an:</string>
+    <string name="highscore_ueberschrift_rang">Rang</string>
+    <string name="highscore_ueberschrift_spielername">Name</string>
+    <string name="highscore_ueberschrift_schifftyp">Schiff</string>
+    <string name="highscore_ueberschrift_score">Pkt</string>
+    <string name="highscore_ueberschrift_benoetigteZeit">Zeit</string>
+    <string name="score">PUNKTE</string>
+    <string name="round">RUNDE</string>
+</resources>

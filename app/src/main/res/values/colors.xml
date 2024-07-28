@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="SS_blau_sehr_hell">#6ceded </color>
+    <color name="SS_blau_hell">#6cb9c9 </color>
+    <color name="SS_blau_dunkel"> #6d85a5 </color>
+    <color name="SS_lila_hell">#6e5181 </color>
+    <color name="SS_lila_normal">#6f1d5c </color>
+    <color name="SS_lila_leicht_dunkel">#4f1446 </color>
+    <color name="SS_lila_sehr_dunkel">#2e0a30 </color>
+    <color name="SS_schwarz">#0d001a </color>
+
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background = "@drawable/allgemein_background_space"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/highscore_guidelineLinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05109489" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/highscore_guidelineRechts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/highscore_guidelineOben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/highscore_guidelineUnten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <TextView
+        android:id="@+id/SS_highscore_ueberschrift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/ethnocentric_rg"
+        android:text="@string/highscore_ueberschrift"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/highscore_guidelineOben"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ss_highsore_guidelineOben_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.23" />
+
+    <ImageView
+        android:id="@+id/ss_highscore_panelBildHintergrund"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/panel_background_small"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/highscore_guidelineUnten"
+        app:layout_constraintEnd_toStartOf="@+id/highscore_guidelineRechts"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/highscore_guidelineLinks"
+        app:layout_constraintTop_toTopOf="@+id/ss_highsore_guidelineOben_recyclerview"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ss_highsore_guidelineTrenner_PanelHintergrundBild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.29" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ss_highsore_recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/highscore_guidelineUnten"
+        app:layout_constraintEnd_toStartOf="@+id/highscore_guidelineRechts"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/highscore_guidelineLinks"
+        app:layout_constraintTop_toTopOf="@+id/ss_highsore_guidelineTrenner_PanelHintergrundBild"
+        app:layout_constraintVertical_bias="0.0" >
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/ss_highsore_ueberschrift_rang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ethnocentric_rg"
+        android:text="@string/highscore_ueberschrift_rang"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:gravity="left"
+        android:paddingRight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/ss_highsore_ueberschrift_spielername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ethnocentric_rg"
+        android:text="@string/highscore_ueberschrift_spielername"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:gravity="left"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <TextView
+        android:id="@+id/ss_highsore_ueberschrift_schifftyp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ethnocentric_rg"
+        android:gravity="right"
+        android:text="@string/highscore_ueberschrift_schifftyp"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/ss_highsore_ueberschrift_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ethnocentric_rg"
+        android:gravity="center"
+        android:text="@string/highscore_ueberschrift_score"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/ss_highsore_ueberschrift_ss_highsore_ueberschrift_zeit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ethnocentric_rg"
+        android:gravity="right"
+        android:text="@string/highscore_ueberschrift_benoetigteZeit"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268"
+        tools:ignore="RtlHardcoded" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

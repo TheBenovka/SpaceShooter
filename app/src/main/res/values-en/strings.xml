@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpaceShooter</string>
+    <string name="button_startgame">Start Game</string>
+    <string name="button_spielerVerwaltung">Player\nManagement</string>
+    <string name="button_highscore">Highscore</string>
+    <string name="button_statistiken">Statistics</string>
+    <string name="button_einstellungen">Settings</string>
+    <string name="einstellungen_ueberschrift">Settings</string>
+    <string name="einstellungen_musik">Music</string>
+    <string name="einstellungen_Soundeffekte">Soundeffects</string>
+    <string name="s_verwaltung_ueberschrift">Player</string>
+    <string name="s_verwaltung_spielername">Player\nName:</string>
+    <string name="s_verwaltung_button_löschen">Delete\nAccount</string>
+    <string name="s_verwaltung_button_bestaetigen">Confirm</string>
+    <string name="highscore_ueberschrift">Highscore</string>
+    <string name="s_verwaltung_edittext_platzhaltername">*Enter Name*</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="your_score">YOUR SCORE:</string>
+    <string name="highscore">HIGHSCORE:</string>
+    <string name="default_score">100</string>
+    <string name="default_highscore">100000</string>
+    <string name="share_text">Hey look at my amazing Score on Space Shooter:</string>
+    <string name="highscore_ueberschrift_rang">Rank</string>
+    <string name="highscore_ueberschrift_spielername">Name</string>
+    <string name="highscore_ueberschrift_schifftyp">Ship</string>
+    <string name="highscore_ueberschrift_score">Sco</string>
+    <string name="highscore_ueberschrift_benoetigteZeit">Time</string>
+    <string name="score">SCORE</string>
+    <string name="round">ROUND</string>
+</resources>

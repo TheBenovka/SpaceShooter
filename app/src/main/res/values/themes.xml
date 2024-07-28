@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SpaceShooter" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/SS_blau_hell</item>
+        <item name="colorPrimaryVariant">@color/SS_blau_dunkel</item>
+        <item name="colorOnPrimary">@color/SS_schwarz</item>
+
+        <item name="colorSecondary">@color/SS_lila_hell</item>
+        <item name="colorSecondaryVariant">@color/SS_lila_sehr_dunkel</item>
+        <item name="colorOnSecondary">@color/SS_schwarz</item>
+
+        <!-- Statusleistenfarbe -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style
+        name="Theme.SpaceShooter"
+        parent="Base.Theme.SpaceShooter"
+        />
+</resources>
